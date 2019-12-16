@@ -22,6 +22,7 @@ main()
         }
         else{
             cout<<s<<endl;
+
         }
     }
 }
