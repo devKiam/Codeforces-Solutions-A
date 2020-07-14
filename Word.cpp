@@ -18,8 +18,8 @@ int main()
             else LcaseCount++;
         }
 
-
-        if(UcaseCount > LcaseCount){
+        if(UcaseCount > LcaseCount)
+        {
             transform(s.begin(), s.end(), s.begin(), ::toupper);
             cout<<s<<endl;
         }
@@ -28,8 +28,5 @@ int main()
             transform(s.begin(), s.end(), s.begin(), ::tolower);
             cout<<s<<endl;
         }
-
-
     }
-    return 0;
 }
