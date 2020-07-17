@@ -12,9 +12,9 @@ for i in range(0, x):
  
     if sum2<=sum:
  
-        sum2+=v[i];
-        count+=1;
-        sum-=v[i];
+        sum2+=v[i]
+        count+=1
+        sum-=v[i]
  
     else:
         break
