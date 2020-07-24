@@ -24,5 +24,6 @@ main()
         }
 
         cout<<sum<<endl;
+        
     }
 }
